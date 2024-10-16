@@ -189,3 +189,6 @@ for col in star_data.colnames:
     star_data[col].info.format = '%.8g'
 
 star_data.pprint()
+
+print(star_data['calibrated_flux'])
+
